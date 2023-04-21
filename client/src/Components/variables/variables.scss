@@ -1,0 +1,21 @@
+// colors
+
+$blue: #00b4f4;
+$button-green: #25684a;
+
+// mixins
+  @mixin for-tablet {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+@mixin for-laptop {
+  @media (min-width: 992px) {
+    @content;
+  }
+}
+@mixin for-desktop {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
